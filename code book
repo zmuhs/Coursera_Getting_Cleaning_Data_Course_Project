@@ -1,0 +1,12 @@
+    Script Variables
+
+#Loading dataframes from text files into R dataframes 
+features is dataframe variable holding the data in "UCI HAR Dataset/features.txt" 
+activities is dataframe variable holding the data in "UCI HAR Dataset/activity_labels.txt" 
+subject_test is dataframe variable holding the data in "UCI HAR Dataset/test/subject_test.txt" 
+subject_train is dataframe variable holding the data in "UCI HAR Dataset/train/subject_train.txt"
+x_test is dataframe variable holding the data in "UCI HAR Dataset/test/X_test.txt" 
+x_train is dataframe variable holding the data in "UCI HAR Dataset/train/X_train.txt" 
+y_train is dataframe variable holding the data in "UCI HAR Dataset/train/y_train.txt" 
+subject is dataframe variable combining 2 dataframes (subject_train, subject_test) 
+merged_data is dataframe variable holding the complete data set.
